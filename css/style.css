@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Protest+Riot&display=swap');
+
+@font-face {
+    font-family: 'fonte1';
+    src: url(/fonts/Nunito-Italic-VariableFont_wght.ttf)
+}
+
+.divNunito {
+    font-family: 'fonte1';
+}
+
+.divCadastar {
+    text-align: center;
+}
+
+.divContainer {
+    width: 500px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+    background-color: rgb(221, 241, 241);
+    padding: 15px;
+}
+
+.label {
+    display: block;
+    margin-bottom: 5px;
+    box-sizing: border-box;
+}
+
+.alinhar {
+    display: block;
+}
+
+.centralizar{
+    padding: 15px;
+}
+
+.inputDados {
+    font-size: 16px;
+    background-color: rgb(193, 206, 211);
+    border: 0;
+    margin: 0px;
+    padding: 15px;
+    outline: 0;
+    height: auto;
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+    box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.25);
+
+    width: 450px;
+    height: 30px;
+}
+
+
+textarea {
+    background-color: rgb(193, 206, 211);
+    width: 450px;
+    height: 40px;
+    border: 0;
+}
+
+select {
+    background-color: rgb(193, 206, 211);
+    width: 450px;
+    height: 20px;
+    border: 0;
+}
+
+.circle-number {
+    display: inline-block;
+    background-color: #53aa5f;    /* Cor de fundo */
+    color: white;        /* Cor do texto */
+    border-radius: 50%;    /* Deixa redondo */
+    padding: 0.2em;        /* Espaço interno */
+    width: 20px;           /* Largura fixa */
+    height: 15px;          /* Altura fixa */
+    text-align: center;    /* Centraliza o número */
+    line-height: 20px;     /* Alinha verticalmente */
+    font-weight: bold;     /* Deixa o número mais visível */
+}
+
+.titulo {
+    font-weight: bold
+}
+
+fieldset{
+    border: none;
+}
+
+button {
+    color: white;
+    font-size: 20px;
+    background-color: green;
+    width: 450px;
+    height: 50px;
+    border: 0;
+    border-radius: 8px;
+    margin: auto;
+}
+
+
